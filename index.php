@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Owntweet</title>
     <!-- Tailwind CSS CDN -->
-     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Boxicons CDN -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/3.4.1/tailwind.min.css" rel="stylesheet">
+     <script defer src="https://cdn.tailwindcss.com"></script>    
+     <!-- Boxicons CDN -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <!-- Google Fonts CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -83,7 +84,7 @@
 <body class="text-gray-100">
     <div class="container mx-auto py-16 px-4 md:px-8">
         <h1 class="text-5xl font-bold text-center mb-16 gradient-text animate-float">
-            Code Cosmos
+            PROJECT LIST, BUILD WITH AI
         </h1>
 
        <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
